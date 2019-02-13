@@ -7,7 +7,7 @@ the result".
 Now if your like me who likes to go in depth of this read on !
 
 
-```
+```swift
         let outerObservable = Observable<Int>
             .interval(1, scheduler: MainScheduler.instance)
             .take(3)
